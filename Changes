@@ -1,0 +1,7 @@
+Revision history for Perl module Test::Float
+
+0.10 Sun Dec 26 14:18:36 EST 2004
+    - initial release
+
+0.01 Sun Dec 26 13:12:10 2004
+	- original version; created by ExtUtils::ModuleMaker::TT
