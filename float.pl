@@ -361,7 +361,7 @@ sub code {
         print "============== generation $generation\n"; 
         # for my $chain (@pool) { print $chain->score, ":\n", $chain->to_string, "\n"; }
         for my $chain (@pool) { print $chain->score, "\n"; }
-        for my $chain (@pool) { our $sn; open my $fh, '>', sprintf "tmp/t%08d.pl", ++$sn or die $!; $fh->print("# " . $chain->score, "\n", $chain->to_string, "\n"); }
+        # for my $chain (@pool) { our $sn; open my $fh, '>', sprintf "tmp/t%08d.pl", ++$sn or die $!; $fh->print("# " . $chain->score, "\n", $chain->to_string, "\n"); }
 
         my @new_pool;
 

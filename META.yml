@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Test-Float
-version:            0.2
+version:            0.3
 abstract:           Test::Harness modified to accept floating point test result values
 author:
     - Scott Walters <scott@slowass.net>

@@ -5,7 +5,7 @@ BEGIN { $Devel::Trace::TRACE = 0; };
 use strict;
 use warnings;
 
-our $VERSION = '0.2';
+our $VERSION = '0.3';
 
 use IO::Handle;
 # use Code::Splice;
@@ -861,6 +861,9 @@ C<$verbose>, C<$switches> and C<$debug> are exported upon request.
 0.1 was demo'd at Frozen Perl 2010.
 
 0.2 was the first version released to CPAN.
+
+0.3 fixes a C<die> if you don't have a C<tmp> directory in the current directory for diagnostic/debugging output.  Oops.
+Also, permissions were wrong, as usual.
 
 =head1 SEE ALSO
 
