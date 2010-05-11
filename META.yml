@@ -1,17 +1,29 @@
 --- #YAML:1.0
-name: Test-Float
-version: 0.10
-author: ~
-abstract: |-
-  Compare if two numbers are equal within a specified precision
-license: perl
-requires:
-  Test::Builder: 0.22
+name:               Test-Float
+version:            0.2
+abstract:           Test::Harness modified to accept floating point test result values
+author:
+    - Scott Walters <scott@slowass.net>
+license:            unknown
+distribution_type:  module
+configure_requires:
+    ExtUtils::MakeMaker:  6.46
 build_requires:
-  Test::Builder::Tester: 1.01
-  Test::More: 0.53
-provides:
-  Test::Float:
-    file: lib/Test/Float.pm
-    version: 0.10
-generated_by: Module::Build version 0.2606
+    ExtUtils::MakeMaker:  0
+requires:
+    Acme::State:    0.03
+    autobox::Core:  1
+    Devel::Caller:  0.1
+    PPI:            0.1
+    StupidMarkov:   0.002
+resources:
+    bugtracker:  mailto:scott@slowass.net
+    repository:  http://github.com/scrottie/autobox-Bless
+no_index:
+    directory:
+        - t
+        - inc
+generated_by:       ExtUtils::MakeMaker version 6.56
+meta-spec:
+    url:      http://module-build.sourceforge.net/META-spec-v1.4.html
+    version:  1.4

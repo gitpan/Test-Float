@@ -1,12 +1,15 @@
-Build.PL
 Changes
-lib/Test/Float.pm
-LICENSE
 Makefile.PL
-MANIFEST			This list of files
-META.yml
-README
-t/01-module-basics.t
-t/02-cmp_float.t
-t/03-specify_precision.t
-Todo
+MANIFEST
+fitness-t/goo.t
+fitness-t/logic.t
+lib/Test/Float.pm
+float.pl
+seq.pl
+META.yml                                 Module meta-data (added by MakeMaker)
+lib/Test/Float/Assert.pm
+lib/Test/Float/Iterator.pm
+lib/Test/Float/Point.pm
+lib/Test/Float/Results.pm
+lib/Test/Float/Straps.pm
+lib/Test/Float/Util.pm
